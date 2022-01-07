@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="1dp">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cardview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+        android:elevation="0.1dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="120dp"
+        android:gravity="start"
+        android:text="Mapex"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="290dp"
+        android:gravity="start"
+        android:text="Vence Amanhã"
+        android:textColor="#FF9900"
+        />
+</com.google.android.material.card.MaterialCardView>
+
+
+

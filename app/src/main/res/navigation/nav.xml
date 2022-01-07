@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/meu_espaco_fragment">
+
+    <fragment
+        android:id="@+id/meu_espaco_fragment"
+        android:name="br.com.arcom.promocoes.ui.meuespaco.MeuEspacoFragments"
+        tools:layout="@layout/fragment_meu_espaco">
+
+        <action
+            app:destination="@id/brindes_fragment"
+            android:id="@+id/meu_espaco_fragment_to_brindes_fragment"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/brindes_fragment"
+        android:name="br.com.arcom.promocoes.ui.brindes.BrindesFragments"
+        tools:layout="@layout/fragment_brindes">
+
+        <action
+            app:destination="@id/meu_espaco_fragment"
+            android:id="@+id/brindes_fragment_to_meu_espaco_fragment">
+
+        </action>
+
+    </fragment>
+
+</navigation>
