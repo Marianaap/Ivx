@@ -2,6 +2,7 @@ package br.com.arcom.promocoes
 
 import android.graphics.Color
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import br.com.arcom.promocoes.R
@@ -19,28 +20,28 @@ class MainActivity : AppCompatActivity() {
         val tabLayout = findViewById<TabLayout>(R.id.tab_Layout)
         val viewPager2 = findViewById<ViewPager2>(R.id.view_pager2)
         val adapter = ViewPagerAdapter(supportFragmentManager, lifecycle)
-
         viewPager2.adapter = adapter
 
 
-
-        TabLayoutMediator(tabLayout,viewPager2){tab,position->
-            when(position){
-                0 ->{
+        TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
+            when (position) {
+                0 -> {
                     tab.text = "Meu Espaço"
                     tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#FF9900"));
                 }
-                1 ->{
+                1 -> {
                     tab.text = "Brindes"
                 }
-                2 ->{
+                2 -> {
                     tab.text = "Mapex"
                 }
-                3 ->{
+                3 -> {
                     tab.text = "Promoções"
                 }
             }
         }.attach()
+
+
 
 
     }

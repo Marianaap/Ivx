@@ -3,6 +3,7 @@ package com.example.promcoes.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
 import br.com.arcom.promocoes.R
 
@@ -14,7 +15,7 @@ class Horizontal_RecyclerView: RecyclerView.Adapter<Horizontal_RecyclerView.MyVi
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-       val view = LayoutInflater.from(parent.context).inflate(R.layout.row, parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.row, parent,false)
         return MyViewHolder(view)
 
     }
@@ -23,7 +24,5 @@ class Horizontal_RecyclerView: RecyclerView.Adapter<Horizontal_RecyclerView.MyVi
 
     }
 
-    override fun getItemCount(): Int {
-        return 20
-    }
+    override fun getItemCount() = 3
 }

@@ -13,7 +13,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
 
                 <TextView
@@ -30,12 +30,14 @@
 
                     />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/icon_Extrato"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
                     android:layout_marginEnd="10dp"
-
+                    android:src="@drawable/ic_extato"
+                    android:elevation="2dp"
+                    android:background="@color/white"
                     app:layout_constraintBottom_toBottomOf="@+id/saldo"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/saldo" />
@@ -84,23 +86,30 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/info_Brindes" />
 
-                <View
-                    android:id="@+id/divisor2"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="16dp"
-                    android:background="#DCDCDC"
-                    app:layout_constraintTop_toBottomOf="@id/recyclerview" />
+
+                <Spinner
+                    android:id="@+id/barraOrdenar"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:elevation="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/recyclerview"/>
+
+
+
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerview2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    app:flow_wrapMode="aligned"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/divisor2" />
-
+                    app:layout_constraintTop_toBottomOf="@+id/barraOrdenar" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/activity_main.xml" value="0.26132246376811596" />
+        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/activity_detalhe.xml" value="0.2644927536231884" />
+        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/activity_dialog.xml" value="0.2653985507246377" />
+        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/cardpromo.xml" value="0.26132246376811596" />
+        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/descricao_promo.xml" value="0.33" />
+        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/fragment_brindes.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/fragment_meu_espaco.xml" value="0.26132246376811596" />
         <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/fragment_promocao.xml" value="0.26132246376811596" />
         <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/layout/row.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/mariana.silva/AndroidStudioProjects/Promocoes/app/src/main/res/menu/menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/mariana.silva/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/activity_list_item.xml" value="0.24592391304347827" />
       </map>
     </option>
   </component>
@@ -16,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.26132246376811596" />
+      </ProjectState>
+    </option>
   </component>
 </project>
