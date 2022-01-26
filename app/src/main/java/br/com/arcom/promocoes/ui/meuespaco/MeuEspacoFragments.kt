@@ -5,18 +5,16 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import br.com.arcom.promocoes.R
 import br.com.arcom.promocoes.adapter.Vertical_RecyclerView
-import br.com.arcom.promocoes.databinding.FragmentBrindesBinding.inflate
-import br.com.arcom.promocoes.databinding.FragmentMapexBinding.inflate
 import br.com.arcom.promocoes.databinding.FragmentMeuEspacoBinding
 import com.example.promcoes.adapter.Horizontal_RecyclerView
-import kotlinx.coroutines.NonDisposableHandle.parent
 
 class MeuEspacoFragments : Fragment() {
 
@@ -58,6 +56,7 @@ class MeuEspacoFragments : Fragment() {
 
             }
 
+
         }
 
         adapter = Horizontal_RecyclerView()
@@ -74,6 +73,8 @@ class MeuEspacoFragments : Fragment() {
 
         return binding.root
     }
+
+
 
 
 }

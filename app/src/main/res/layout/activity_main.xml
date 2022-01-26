@@ -22,13 +22,13 @@
         android:id="@+id/tab_Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="#FF9900"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/topBar"
         app:tabGravity="start"
         app:tabMaxWidth="0dp"
         app:tabMode="scrollable"
-        app:tabSelectedTextColor="#FF9900"
+        app:tabSelectedTextColor="#FFFFFF"
         app:tabTextColor="#666666" />
 
     <ScrollView
